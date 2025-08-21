@@ -1,0 +1,814 @@
+[
+  {
+    "id": 1,
+    "name": "사랑이꽃피는곳",
+    "imageURL": "https://i.imgur.com/kNvsgMQ.jpeg",
+    "category": "FLOWER",
+    "address": "서울시 종로구 혜화로 8 사랑이 꽃피는 곳",
+    "rating": 4.23,
+    "hours": "08:00-22:00, 매주 일요일 휴무",
+    "phone": "02-3675-7377",
+    "coupon":
+      {
+        "title": "3만원 이상 꽃다발 구매 시 2000원 할인"
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "나인틴나인",
+    "imageURL": "https://i.imgur.com/8nBOnCG.jpeg",
+    "category": "LEISURE",
+    "address": "서울 종로구 혜화동 대학로 144, 4층 401,402호 (혜화동,중원빌딩)",
+    "rating": 4.17,
+    "hours": "11:00-01:00, 토요일 11:00-02:00",
+    "phone": "02-744-9994",
+    "coupon":
+      {
+        "title": "4인 이상 방문시 1세트 추가"
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "꽈백이",
+    "imageURL": "https://i.imgur.com/d3ZTu16.jpeg",
+    "category": "BAKERY",
+    "address": "서울특별시 종로구 혜화로 19 (명륜1가) 1층 101호",
+    "rating": 4.54,
+    "hours": "10:00-21:30",
+    "phone": "02-3673-0808",
+    "coupon":
+      {
+        "title": "3만원 이상 구매 시 수제쿠키 증정"
+      }
+    ,
+    "menu": [
+      {
+        "name": "찹쌀꽈배기 3개",
+        "menuImage": "https://i.imgur.com/tKDq3Wm.jpeg"
+      },
+      {
+        "name": "치즈볼",
+        "menuImage": "https://i.imgur.com/AoHb94Y.jpeg"
+      },
+      {
+        "name": "팥도너츠",
+        "menuImage": "https://i.imgur.com/9I5vbIe.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "이레 과자",
+    "imageURL": "https://i.imgur.com/H4lGxRF.jpeg",
+    "category": "BAKERY",
+    "address": "서울특별시 종로구 혜화로 14",
+    "rating": null,
+    "hours": "화-목요일 12:00-20:00, 금/토요일 12:00-19:00, 일요일 12:00-18:00, 매주 월요일 휴무",
+    "phone": "0507-1425-6770",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": "까눌레",
+        "menuImage": "https://i.imgur.com/wVuGa6R.jpeg"
+      },
+      {
+        "name": "A세트",
+        "menuImage": "https://i.imgur.com/c0p59y6.jpeg"
+      },
+      {
+        "name": "B세트",
+        "menuImage": "https://i.imgur.com/grzibL8.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "동네떡볶이",
+    "imageURL": "https://i.imgur.com/aK7w0G9.jpeg",
+    "category": "SNACK",
+    "address": "서울 종로구 혜화로 23, 1층 104호 (명륜1가)",
+    "rating": null,
+    "hours": "10:00-20:00, 매주 토/일요일 휴무",
+    "phone": "0507-1487-5571",
+    "coupon":
+      {
+        "title": "세트 메뉴 구매 시 1000원 할인"
+      }
+    ,
+    "menu": [
+      {
+        "name": "떡볶이",
+        "menuImage": "https://i.imgur.com/LHdydXn.jpeg"
+      },
+      {
+        "name": "김밥",
+        "menuImage": "https://i.imgur.com/i22wlpo.jpeg"
+      },
+      {
+        "name": "야채튀김",
+        "menuImage": "https://i.imgur.com/yi4djMl.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "명륜닭꼬치",
+    "imageURL": "https://i.imgur.com/E88UyGd.png",
+    "category": "SNACK",
+    "address": "서울특별시 종로구 혜화로 27-1 (명륜1가)",
+    "rating": null,
+    "hours": "월-목요일 14:00-22:00, 금/토요일 12:00-22:00, 매주 일요일 휴무",
+    "phone": "0507-1388-7487",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": "명륜닭꼬치(소금구이)",
+        "menuImage": "https://i.imgur.com/jlhGo5X.jpeg"
+      },
+      {
+        "name": "명륜파닭(소금구이)",
+        "menuImage": "https://i.imgur.com/ECs1DQw.jpeg"
+      },
+      {
+        "name": "수제닭튀김",
+        "menuImage": "https://i.imgur.com/LpLhruy.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "씨티글램혜화",
+    "imageURL": "https://i.imgur.com/qzB4uyZ.jpeg",
+    "category": "BEAUTY",
+    "address": "서울특별시 종로구 혜화로 18 (혜화동, 선빌딩)",
+    "rating": null,
+    "hours": "10:00-20:00, 매달 2/4번째 일요일 휴무",
+    "phone": "0507-1471-7968",
+    "coupon":
+      {
+        "title": "첫 방문 고객 20% 할인"
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "비비네일",
+    "imageURL": "https://i.imgur.com/ydNsTAt.jpeg",
+    "category": "BEAUTY",
+    "address": "서울 종로구 혜화로3길 5, 1층 107호 (명륜2가,명륜동주상복합아남아파트)",
+    "rating": 4.89,
+    "hours": "월-목요일 11:00-22:00, 금-일요일 11:00-19:00",
+    "phone": "0507-1378-0246",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "에떼",
+    "imageURL": "https://i.imgur.com/IktH4UU.jpeg",
+    "category": "BEAUTY",
+    "address": "서울특별시 종로구 혜화로 45 (명륜1가) 1층",
+    "rating": 4.97,
+    "hours": "월/수-일요일 10:30-19:00, 매주 화요일 휴무",
+    "phone": "0507-1404-1734",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "소원책담 협동조합",
+    "imageURL": "https://i.imgur.com/QfvpRuL.jpeg",
+    "category": "BOOK",
+    "address": "서울 종로구 혜화로6길 17, 101호 (혜화동)",
+    "rating": null,
+    "hours": "월/목-일요일 12:30-20:00, 매주 화/수요일 휴무",
+    "phone": "0507-1485-8829",
+    "coupon":
+      {
+        "title": "베스트셀러 구매 시 10% 할인"
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "맛의 정원",
+    "imageURL": "https://i.imgur.com/0X4yYp1.jpeg",
+    "category": "WESTERN",
+    "address": "서울특별시 종로구 혜화로 47 (명륜1가)",
+    "rating": 4.48,
+    "hours": "월-토요일 11:00-19:30, 매주 일요일 휴무",
+    "phone": "070-7622-6607",
+    "coupon":
+      {
+        "title": "3인 이상 방문 시 사이드메뉴 1개 무료 제공"
+      }
+    ,
+    "menu": [
+      {
+        "name": "베이컨 버섯 오무라이스",
+        "menuImage": "https://i.imgur.com/KZnF1bb.jpeg"
+      },
+      {
+        "name": "토마토 치킨 스튜",
+        "menuImage": "https://i.imgur.com/S44YtSE.jpeg"
+      },
+      {
+        "name": "가지튀김덮밥",
+        "menuImage": "https://i.imgur.com/OuBBuPq.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "아도레 쿠치나",
+    "imageURL": "https://i.imgur.com/HVztcTv.jpeg",
+    "category": "WESTERN",
+    "address": "서울특별시 종로구 혜화로3길 20, 1층 (명륜1가) 아도레 쿠치나",
+    "rating": 4.46,
+    "hours": "월-토요일 11:30-21:00, 매주 일요일 휴무",
+    "phone": "02-745-0822",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": "통오징어 로제 파스타",
+        "menuImage": "https://i.imgur.com/9WvHJ9w.jpeg"
+      },
+      {
+        "name": "마르게리따 피자",
+        "menuImage": "https://i.imgur.com/yiSXcVY.jpeg"
+      },
+      {
+        "name": "단호박 크림 새우 파스타",
+        "menuImage": "https://i.imgur.com/gBNoeBZ.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "어바웃 알린",
+    "imageURL": "https://i.imgur.com/s7igxIM.jpeg",
+    "category": "EXPERIENCE",
+    "address": "서울 종로구 혜화로 19-1, 2층 202호 (명륜1가)",
+    "rating": null,
+    "hours": "월-일요일 09:00-20:00",
+    "phone": "0507-1313-1916",
+    "coupon":
+      {
+        "title": "지인과 방문시 본인/지인 모두 10% 할인"
+      }
+    ,
+    "menu": [
+      {
+        "name": "원데이 메이크업 클래스",
+        "menuImage": "https://i.imgur.com/cUuATYj.jpeg"
+      },
+      {
+        "name": "프리미엄 퍼스널 컬러",
+        "menuImage": "https://i.imgur.com/jzWkYLe.jpeg"
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "체리빈커피",
+    "imageURL": "https://i.imgur.com/gN6SYyr.jpeg",
+    "category": "EXPERIENCE",
+    "address": "서울 종로구 혜화로2길 10, 1층 (혜화동)",
+    "rating": null,
+    "hours": "수-일요일 10:00-19:00, 매주 월/화요일 휴무",
+    "phone": "0507-1333-2634",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "요즘미술",
+    "imageURL": "https://i.imgur.com/36FzjpP.jpeg",
+    "category": "SHOW",
+    "address": "서울 종로구 혜화로9길 7, 3층 (명륜1가)",
+    "rating": null,
+    "hours": "월-일요일 13:00-19:00",
+    "phone": "02-6958-5753",
+    "coupon":
+      {
+        "title": "전시/공연 5회 관람 시 1회 무료 관람"
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "낫씽이즈리얼 nothingisreal",
+    "imageURL": "https://i.imgur.com/mv94tli.jpeg",
+    "category": "SHOW",
+    "address": "서울 종로구 혜화로9길 7, 3층 (명륜1가)",
+    "rating": null,
+    "hours": "전시에 따라 달라짐",
+    "phone": "0507-1485-4525",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "또봉이통닭",
+    "imageURL": "https://i.imgur.com/X2nrrzi.jpeg",
+    "category": "DRINK",
+    "address": "서울 종로구 혜화로 26, 1층 (혜화동)",
+    "rating": 4.43,
+    "hours": "월-토요일 17:00-24:00, 매주 일요일 휴무",
+    "phone": "0507-0092-6275",
+    "coupon":
+      {
+        "title": "3인 이상 방문 시 주류 1병 무료 제공"
+      }
+    ,
+    "menu": [
+      {
+        "name": "또봉이통닭",
+        "menuImage": "https://i.imgur.com/RPBLln6.jpeg"
+      },
+      {
+        "name": "양념통닭",
+        "menuImage": "https://i.imgur.com/2g0GYJr.jpeg"
+      },
+      {
+        "name": "간장마늘통닭",
+        "menuImage": "https://i.imgur.com/EqQ2D7f.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "가부",
+    "imageURL": "https://i.imgur.com/oOER2T6.jpeg",
+    "category": "CHINESE",
+    "address": "서울 종로구 혜화로 26-1, 1층 (혜화동)",
+    "rating": 4.33,
+    "hours": "화-일요일 11:00-21:00, 매주 월요일 휴무",
+    "phone": "02-766-2182",
+    "coupon":
+      {
+        "title": "3인 이상 방문 시 사이드메뉴 1개 무료 제공"
+      }
+    ,
+    "menu": [
+      {
+        "name": "대게살유산슬",
+        "menuImage": "https://i.imgur.com/jMDFm3Z.jpeg"
+      },
+      {
+        "name": "삼선짬뽕",
+        "menuImage": "https://i.imgur.com/YAofreY.jpeg"
+      },
+      {
+        "name": "양장피",
+        "menuImage": "https://i.imgur.com/JeB5ZxY.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "카페 사흘",
+    "imageURL": "https://i.imgur.com/ykIrPhm.jpeg",
+    "category": "CAFE",
+    "address": "서울특별시 종로구 혜화로 16-1 (혜화동) 1층",
+    "rating": 4.59,
+    "hours": "월요일 12:00-22:00, 화-일요일 12:00-24:00",
+    "phone": "0507-1324-1227",
+    "coupon":
+      {
+        "title": "음료/디저트 세트 구매 시 1000원 할인"
+      }
+    ,
+    "menu": [
+      {
+        "name": "오미자차",
+        "menuImage": "https://i.imgur.com/cXkpqOn.jpeg"
+      },
+      {
+        "name": "더치라떼",
+        "menuImage": "https://i.imgur.com/cOfzRiL.jpeg"
+      },
+      {
+        "name": "로레아 샹그리아",
+        "menuImage": "https://i.imgur.com/OWiOtAq.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "브라운 에비뉴 (Brown Avenue)",
+    "imageURL": "https://i.imgur.com/l5xgDKW.jpeg",
+    "category": "CAFE",
+    "address": "서울시 종로구 혜화로3길 5 301동 112호",
+    "rating": 4.61,
+    "hours": "월-토요일 09:00-16:00, 매주 일요일 휴무",
+    "phone": "0507-1444-8334",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": "프렌치토스트 브런치",
+        "menuImage": "https://i.imgur.com/abnQAE2.jpeg"
+      },
+      {
+        "name": "클래식 브런치",
+        "menuImage": "https://i.imgur.com/WfDwKpy.jpeg"
+      },
+      {
+        "name": "아보카도살몬 브런치",
+        "menuImage": "https://i.imgur.com/wTIJMaU.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "핏어팻",
+    "imageURL": "https://i.imgur.com/JlOHaFR.jpeg",
+    "category": "CAFE",
+    "address": "서울특별시 종로구 혜화로3길 5 (명륜2가, 명륜동주상복합아남아파트) 1층 108호",
+    "rating": 4.49,
+    "hours": "월-금요일 07:30-22:00, 토요일 07:10-23:00, 일요일 07:10-22:00",
+    "phone": "070-8820-6195",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": "블루베리복분자 쉐이크",
+        "menuImage": "https://i.imgur.com/rPCbSKD.jpeg"
+      },
+      {
+        "name": "연어크림치즈 샌드위치",
+        "menuImage": "https://i.imgur.com/DhkyKI0.jpeg"
+      },
+      {
+        "name": "쑥샷라떼",
+        "menuImage": "https://i.imgur.com/sEZ1GGg.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "페스티나렌테",
+    "imageURL": "https://i.imgur.com/TB3u9ah.jpeg",
+    "category": "FASHION",
+    "address": "서울 종로구 혜화로3길 5, 301동 상가 109호 ((명륜동주상복합아남아파트)) (명륜2가)",
+    "rating": null,
+    "hours": "월요일 10:00-20:00, 화/수요일 10:00-18:00, 목요일 10:00-21:00, 토요일 10:00-15:00, 매주 일요일 휴무",
+    "phone": "0507-1320-0681",
+    "coupon":
+      {
+        "title": "5만원 이상 구매 시 10% 할인"
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "수에르 조",
+    "imageURL": "https://i.imgur.com/CxaqhMh.jpeg",
+    "category": "FASHION",
+    "address": "서울특별시 종로구 혜화로 8 (혜화동) 1층 &lt;수에르조&gt;",
+    "rating": null,
+    "hours": "12:00-21:00",
+    "phone": "0507-1356-0921",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "옐로우마켓 주식회사",
+    "imageURL": "https://i.imgur.com/oEBQzbe.jpeg",
+    "category": "FASHION",
+    "address": "서울특별시 종로구 혜화로 19 (명륜1가) 1층",
+    "rating": null,
+    "hours": "월-금요일 13:00-20:00, 매주 토/일요일 휴무",
+    "phone": "010-7139-1043",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      },
+      {
+        "name": null,
+        "menuImage": null
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "한성본가",
+    "imageURL": "https://i.imgur.com/S941hkP.jpeg",
+    "category": "KOREAN",
+    "address": "서울 종로구 혜화로 46-1 (혜화동)",
+    "rating": 4.56,
+    "hours": "월, 수-일요일 12:00-22:00, 매주 화요일 휴무",
+    "phone": "02-766-7661",
+    "coupon":
+      {
+        "title": "3인 이상 방문 시 사이드메뉴 1개 무료 제공"
+      }
+    ,
+    "menu": [
+      {
+        "name": "도드람한돈 가족세트",
+        "menuImage": "https://i.imgur.com/Tdr3Q9w.jpeg"
+      },
+      {
+        "name": "소고기 가족세트",
+        "menuImage": "https://i.imgur.com/DZbP2fR.jpeg"
+      },
+      {
+        "name": "돼지왕갈비 3인",
+        "menuImage": "https://i.imgur.com/rlCC4gl.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "명동도면",
+    "imageURL": "https://i.imgur.com/5hE5jMq.jpeg",
+    "category": "KOREAN",
+    "address": "서울시 종로구 혜화로3길 5 1층(명륜1가)",
+    "rating": 4.36,
+    "hours": "10:00-21:00",
+    "phone": "02-741-6466",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": "제육비빔밥",
+        "menuImage": "https://i.imgur.com/Sz1HVsT.jpeg"
+      },
+      {
+        "name": "뚝배기얼큰김치도면",
+        "menuImage": "https://i.imgur.com/V4Z0Koy.jpeg"
+      },
+      {
+        "name": "김치말이도면",
+        "menuImage": "https://i.imgur.com/K6z1vrx.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "골목냉면(골목냉면 혜화점)",
+    "imageURL": "https://i.imgur.com/MVcJT6Y.jpeg",
+    "category": "KOREAN",
+    "address": "서울특별시 종로구 혜화로 2(혜화동) 1층(혜화동)",
+    "rating": 4.27,
+    "hours": "11:00-21:00",
+    "phone": "02-765-6580",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": "명태회냉면",
+        "menuImage": "https://i.imgur.com/axF11NZ.jpeg"
+      },
+      {
+        "name": "살얼음동동물냉면",
+        "menuImage": "https://i.imgur.com/hMTNpxL.jpeg"
+      },
+      {
+        "name": "매콤달콤비빔냉면",
+        "menuImage": "https://i.imgur.com/OpHBnXS.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "어촌(생선구이)(어촌)",
+    "imageURL": "https://i.imgur.com/HxvMlX7.jpeg",
+    "category": "KOREAN",
+    "address": "서울시 종로구 혜화로 10-3(혜화동) 1층 어촌",
+    "rating": 4.25,
+    "hours": "월-토요일 10:00-22:00, 매주 일요일 휴무",
+    "phone": "02-762-9992",
+    "coupon":
+      {
+        "title": null
+      }
+    ,
+    "menu": [
+      {
+        "name": "고등어",
+        "menuImage": "https://i.imgur.com/IpjFvBc.jpeg"
+      },
+      {
+        "name": "갈치",
+        "menuImage": "https://i.imgur.com/55zeJ9K.jpeg"
+      },
+      {
+        "name": "가자미",
+        "menuImage": "https://i.imgur.com/jR5N6s0.jpeg"
+      }
+    ]
+  }
+]
