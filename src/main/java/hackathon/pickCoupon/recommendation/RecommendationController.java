@@ -3,12 +3,21 @@ package hackathon.pickCoupon.recommendation;
 import hackathon.pickCoupon.recommendation.service.RecommendationService;
 import hackathon.pickCoupon.recommendation.web.RecommendationResult;
 import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController// JSON 직렬화 응답
 @RequiredArgsConstructor
+@CrossOrigin(
+        origins = {
+                "http://localhost:5175",
+                "https://pick-coupon.com"
+        },   //프론트 오리진
+        allowedHeaders = "*",
+        allowCredentials = "true"           //쿠키/세션 필요시
+)
 public class RecommendationController {
     private final RecommendationService recommendationService;
 
