@@ -14,11 +14,27 @@ public class User {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false, length = 100)
+    @Column(nullable = false, unique = true)
+    private String email;
+
+    @Column(nullable = false)
+    private String password;
+
+    @Column(nullable = false)
     private String nickname;
 
-    // 추후 로그인 도입 시 사용 가능
-    // private String email;
-    // private String password;
+    @OneToMany(mappedBy = "user")
+    List<UserCoupon> userCoupons = new ArrayList<>();
+
+    //편의 메서드
+    public void addUserCoupon(UserCoupon userCoupon) {
+        userCoupons.add(userCoupon);
+        userCoupon.setUser(this);
+    }
+
+    public void removeUserCoupon(UserCoupon userCoupon) {
+        userCoupons.remove(userCoupon);
+        userCoupon.setUser(null);
+    }
 
 }

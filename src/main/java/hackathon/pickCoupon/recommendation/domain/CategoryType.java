@@ -19,10 +19,10 @@ public enum CategoryType {
     FASHION("패션/액세서리"),
     KOREAN("한식");
 
-    private final String korean;
+    private final String categoryKorean;
 
     CategoryType(String korean) {
-        this.korean = korean;
+        this.categoryKorean = korean;
     }
 }
 

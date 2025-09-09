@@ -14,7 +14,7 @@ public class Menu {
     private String menuImage;  // 메뉴 이미지
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "store_id", nullable = false)
+    @JoinColumn(name = "store_id")
     private Store store;
 }
 

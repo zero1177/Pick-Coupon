@@ -36,7 +36,7 @@ public class GPTService {
         String userPrompt = String.format(
                 "상위 카테고리: 1) %s  2) %s\n" +
                 "형식: 한 문장만 출력. 예시는: \"카페에서 잠깐 쉬고, 레저로 주말의 활력을 채워보세요.\"",
-                top1.getKorean(), top2.getKorean()
+                top1.getCategoryKorean(), top2.getCategoryKorean()
         );
 
         Map<String, Object> payload = Map.of(

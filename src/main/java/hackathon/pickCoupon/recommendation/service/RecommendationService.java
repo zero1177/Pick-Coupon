@@ -88,7 +88,7 @@ public class RecommendationService {
                 .address(store.getAddress())
                 .phone(store.getPhone())
                 .hours(store.getHours())
-                .category(store.getCategory().getKorean())
+                .category(store.getCategory().getCategoryKorean())
                 .payment(paymentName)
                 .coupon_is(isCoupon)
                 .coupon(couponName)

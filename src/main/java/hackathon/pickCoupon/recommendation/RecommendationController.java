@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @CrossOrigin(
         origins = {
-                "http://localhost:5175",
-                "https://pick-coupon.com"
-        },   //프론트 오리진
+                "http://localhost:5175", //프론트 로컬 개발 포트
+                "https://pick-coupon.com" //프론트 오리진
+        },
         allowedHeaders = "*",
         allowCredentials = "true"           //쿠키/세션 필요시
 )
