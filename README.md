@@ -6,7 +6,7 @@
 
 PICKOO는 사용자의 소비 내역을 분석해 상위 소비 카테고리를 파악하고, 해당 카테고리에 맞는 매장과 쿠폰을 GPT 기반 추천 멘트와 함께 제공하는 웹사이트입니다. 해커톤 프로젝트로 개발되었으며, 서울 페이와 연계한 지역 소상공인 쿠폰 추천을 목표로 합니다.
 
-## 🛠️ 기술 스택
+## 기술 스택
 
 | 분류 | 기술 |
 |------|------|
@@ -21,14 +21,14 @@ PICKOO는 사용자의 소비 내역을 분석해 상위 소비 카테고리를 
 | Infra | AWS RDS, AWS EC2 (Port 8080) |
 | Etc | Lombok, Spring Actuator |
 
-## ✨ 주요 기능
+## 주요 기능
 
 - **소비 패턴 분석**: 사용자의 소비 로그를 기반으로 상위 카테고리 추출
 - **지역 페이 가맹점 추천**: 상위 1, 2위 카테고리에서 각 3곳씩, 총 6곳의 매장 추천
 - **쿠폰 정보 제공**: 각 가게에 연결된 쿠폰 정보 조회 가능
 - **GPT 추천 멘트**: OpenAI API를 활용해 소비 패턴에 맞는 친근한 추천 문장 생성
 
-## 📂 프로젝트 구조
+## 프로젝트 구조
 
 ```
 src/main/java/hackathon/pickCoupon/
@@ -91,27 +91,13 @@ GET /api/recommendations?userId={userId}
 
 `꽃/원예` `분식` `레저/오락시설` `베이커리/제과점` `뷰티/헤어` `서점/문구점` `양식` `원데이클래스/체험` `전시/공연` `주점/바` `중식` `카페` `패션/액세서리` `한식`
 
-## ⚙️ 실행 방법
+## 실행 방법
 
 ### 사전 요구사항
 
 - Java 21 이상
 - MySQL 실행 중
 - OpenAI API Key 발급
-
-### 환경 변수 설정
-
-`src/main/resources/application.properties` 파일에 아래 값을 설정합니다.
-
-```properties
-openai.api-key=YOUR_OPENAI_API_KEY
-
-spring.datasource.url=jdbc:mysql://localhost:3306/{DB_NAME}?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
-spring.datasource.username=YOUR_DB_USERNAME
-spring.datasource.password=YOUR_DB_PASSWORD
-```
-
-> ⚠️ `application.properties`에 실제 키를 직접 입력하지 말고, 환경 변수 또는 `.env` 파일로 관리하세요.
 
 ### 빌드 및 실행
 
@@ -127,16 +113,3 @@ java -jar build/libs/application.jar
 ```
 
 서버 기본 포트: `8080`
-
-### 헬스 체크
-
-```
-GET /actuator/health
-```
-
-## 🌐 CORS 허용 오리진
-
-| 환경 | URL |
-|------|-----|
-| 로컬 개발 | `http://localhost:5175` |
-| 프로덕션 | `https://pick-coupon.com` |
