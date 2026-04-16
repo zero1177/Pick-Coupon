@@ -12,14 +12,9 @@ PICKOO는 사용자의 소비 내역을 분석해 상위 소비 카테고리를 
 |------|------|
 | Language | Java 21 |
 | Framework | Spring Boot 3.5.4 |
-| Build Tool | Gradle |
-| Database | MySQL |
 | ORM | Spring Data JPA |
 | AI | OpenAI GPT-4o-mini |
-| HTTP Client | Spring WebFlux (WebClient) |
-| Security | Spring Security |
-| Infra | AWS RDS, AWS EC2 (Port 8080) |
-| Etc | Lombok, Spring Actuator |
+| Infra | AWS RDS, AWS EC2|
 
 ## 주요 기능
 
